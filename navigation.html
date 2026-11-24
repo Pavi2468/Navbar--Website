@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics store</title>
+    <style>
+body {
+
+    background-color: #f3a3be;
+    margin: 0;
+}
+
+
+nav {
+    background-color: #c2185b;
+    justify-content:space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+
+    color: white;
+    margin: 25px;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: #73535e;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    margin: 30px auto;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    box-sizing:border-box;
+    margin: 10px 0;
+    
+}
+
+input[type="submit"] {
+    background-color: #c2185b;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+
+
+table {
+    width: 75%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 2px solid #131413;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #c2185b;
+    color: white;
+}
+
+</style>
+</head>
+<body>
+    
+<nav>
+    <a href="home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#form">Add Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<h1 id="home">BEAUTY COSMETICS STORE</h1>
+
+
+<div class="container">
+
+<h2 align="center">Cosmetics Products</h2>
+
+<form>
+
+<label>Product Name:</label>
+<input type="text" placeholder="Enter product name" id="product-name" name="product-name">
+
+<label>Brand:</label>
+<input type="text" placeholder="Enter brand name" id="Brand" name="Brand">
+
+<label>Category:</label>
+<select>
+<option>Select Category</option>
+<option>Face Cream</option>
+<option>Lipstick</option>
+<option>Foundation</option>
+<option>Face Wash</option>
+<option>Perfume</option>
+</select>
+
+<label>Price:</label>
+<input type="number" placeholder="Enter price" id="Price" name="Price">
+
+<label>Quantity:</label>
+<input type="number" placeholder="Enter quantity" id="Quantity" name="Quantity">
+
+<label>Manufacturing Date:</label>
+<input type="date" id="Manufacturing-Date" name="Manufacturing-Date">
+
+<label>Expiry Date:</label>
+<input type="date" id="Expiry-Date" name="Expiry Date">
+
+<input type="submit" value="Submit">
+
+</form>
+</div>
+
+<h2  align="center">COSMETICS PRODUCT DETAILS</h2>
+
+<table>
+<tr>
+<th>S.No</th>
+<th>Product Name</th>
+<th>Brand</th>
+<th>Category</th>
+<th>Price</th>
+<th>Quantity</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Lipstick</td>
+<td>Lakme</td>
+<td>Makeup</td>
+<td>₹450</td>
+<td>20</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Face Cream</td>
+<td>Nivea</td>
+<td>Skincare</td>
+<td>₹250</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Foundation</td>
+<td>Maybelline</td>
+<td>Makeup</td>
+<td>₹600</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Face Wash</td>
+<td>Himalaya</td>
+<td>Skincare</td>
+<td>₹180</td>
+<td>25</td>
+</tr>
+
+</table>
+<footer>
+    <p align="center" contact us> contact us</p>
+    <a href="home">Home</a>
+</footer>
+</body>
+</html>
